@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
 	<title>Gooey Loader</title>
-	<link rel="icon" href="./favicon.png">
-	<link rel="stylesheet" href="style/box.css">
+	<link rel="icon" href="http://dicson.in/static/favicon.png">
+	<meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+	<meta name="description" content="Gooey Loader using CSS keyframes and SVG GaussianBlur">
+	<meta name="keywords" content="Gooey Loader, css animation, css keyframes, SVG GaussianBlur, dicson widgets, widgets, html and css">
+	<meta name="author" content="dicson.in">
 	<link rel="stylesheet" href="style/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<link rel="canonical" href="http://dicson.in" />
 	<style type="text/css">
 		.loading {
 			-webkit-filter: url("#goo");
@@ -21,63 +25,58 @@
 	</style>
 </head>
 <body>
-	<nav class="boxActions">
-		<a href="#" id="previous_box" title="Previous box">
-			<img src="img/back-icon.svg" alt="back" />
-		</a>
-		<a href="#" id="box_home" title="Box home">
-			<img src="img/krdsbox.svg" alt="KRDS Box" />
-		</a>
-		<a href="#" id="github_repo" title="Github repo">
-			<img src="img/github.svg" alt="Github" />
-		</a>
-	</nav>
+	<a class="dicson" target="_blank" href="http://dicson.in"></a>
+	<a class="github" href="https://github.com/dicson-ui/text-stroke" target="_blank"></a>
 
-	<h1>Gooey Loader</h1>
-	<p>Gooey page loader based on CSS keyframes and SVG GaussianBlur</p>
-	<input type="radio" id="tab-1" name="show" checked/>
-	<input type="radio" id="tab-2" name="show" />
-	<input type="radio" id="tab-3" name="show" />
-	<input type="radio" id="tab-4" name="show" />
-	<div class="tab">
-		<label for="tab-1">Demo 1</label>
-		<label for="tab-2">Demo 2</label>
-		<label for="tab-3">Demo 3</label>
-		<label for="tab-4">Demo 4</label>
-	</div>
+	<div class="flex-box">
+		<div class="wrap">
+			<h1>Gooey Loader</h1>
+			<p>Gooey page loader based on CSS keyframes and SVG GaussianBlur</p>
+			<input type="radio" id="tab-1" name="show" checked/>
+			<input type="radio" id="tab-2" name="show" />
+			<input type="radio" id="tab-3" name="show" />
+			<input type="radio" id="tab-4" name="show" />
+			<div class="tab">
+				<label for="tab-1">Demo 1</label>
+				<label for="tab-2">Demo 2</label>
+				<label for="tab-3">Demo 3</label>
+				<label for="tab-4">Demo 4</label>
+			</div>
 
-	<div id="content" class="content">
-		<!-- Loader 1 -->
-		<div id="demo-1" class="loading loading1">
-			<span>Loading</span>
-		</div>
+			<div id="content" class="content">
+				<!-- Loader 1 -->
+				<div id="demo-1" class="loading loading1">
+					<span>Loading</span>
+				</div>
 
-		<!-- Loader 2 -->
-		<div id="demo-2" class="bubbles-splite loading2">
-			<span></span>
-			<span>L</span>
-			<span>O</span>
-			<span>A</span>
-			<span>D</span>
-			<span>I</span>
-			<span>N</span>
-			<span>G</span>
-		</div>
+				<!-- Loader 2 -->
+				<div id="demo-2" class="bubbles-splite loading2">
+					<span></span>
+					<span>L</span>
+					<span>O</span>
+					<span>A</span>
+					<span>D</span>
+					<span>I</span>
+					<span>N</span>
+					<span>G</span>
+				</div>
 
-		<!-- Loader 3 -->
-		<div id="demo-3" class="loading loading3">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
+				<!-- Loader 3 -->
+				<div id="demo-3" class="loading loading3">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 
-		<!-- Loader 4 -->
-		<div id="demo-4" class="loading loading4">
-			<div class="shape-1"><span></span></div>
+				<!-- Loader 4 -->
+				<div id="demo-4" class="loading loading4">
+					<div class="shape-1"><span></span></div>
+				</div>
+			</div>
 		</div>
 	</div>
 
