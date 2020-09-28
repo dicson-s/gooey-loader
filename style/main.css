@@ -87,9 +87,6 @@ body .wrap > input[type=radio] {
 	display: block;
 }
 .tab {
-	display: block;
-}
-.tab {
 	display: flex;
     align-items: center;
     justify-content: center;
