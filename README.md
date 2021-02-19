@@ -1,5 +1,5 @@
 # Gooey Loader
-Gooey page loader based on CSS keyframes and SVG GaussianBlur. [Demo Here](http://dicson.in/widgets/gooey-loader)
+Gooey page loader based on CSS keyframes and SVG GaussianBlur. [Demo Here](https://dicson-ui.github.io/gooey-loader/)
 
 ### Things to keep in mind
 *	This is a CPU intensive effect. Keep in mind while you do Apply it for large areas & performing infinite animation
